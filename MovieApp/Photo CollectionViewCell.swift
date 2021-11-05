@@ -12,7 +12,6 @@ class Photo_CollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var imageView: UIImageView!
     var photo: Photo!
-    let a = 1
     
     let imageCache = NSCache<NSURL, UIImage>()//<>裡的key,value都需要是物件，所以要用class定義的型別，URL是struct，改用NSURL
     
