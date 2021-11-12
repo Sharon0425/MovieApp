@@ -16,8 +16,6 @@
 		80D2572A2732D1DD00A076D8 /* DatailMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D257292732D1DD00A076D8 /* DatailMovieViewController.swift */; };
 		80D2572D2732D47D00A076D8 /* MoviesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D2572C2732D47D00A076D8 /* MoviesTableViewCell.swift */; };
 		80D257302732D50200A076D8 /* MoviesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D2572F2732D50200A076D8 /* MoviesTableViewController.swift */; };
-		80D257382735610B00A076D8 /* Photo CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D257372735610B00A076D8 /* Photo CollectionViewController.swift */; };
-		80D2573B2735612600A076D8 /* Photo CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D2573A2735612600A076D8 /* Photo CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,8 +30,6 @@
 		80D257292732D1DD00A076D8 /* DatailMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatailMovieViewController.swift; sourceTree = "<group>"; };
 		80D2572C2732D47D00A076D8 /* MoviesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTableViewCell.swift; sourceTree = "<group>"; };
 		80D2572F2732D50200A076D8 /* MoviesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTableViewController.swift; sourceTree = "<group>"; };
-		80D257372735610B00A076D8 /* Photo CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Photo CollectionViewController.swift"; sourceTree = "<group>"; };
-		80D2573A2735612600A076D8 /* Photo CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Photo CollectionViewCell.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +72,6 @@
 				80D257292732D1DD00A076D8 /* DatailMovieViewController.swift */,
 				80D2572C2732D47D00A076D8 /* MoviesTableViewCell.swift */,
 				80D2572F2732D50200A076D8 /* MoviesTableViewController.swift */,
-				80D257372735610B00A076D8 /* Photo CollectionViewController.swift */,
-				80D2573A2735612600A076D8 /* Photo CollectionViewCell.swift */,
 			);
 			path = MovieApp;
 			sourceTree = "<group>";
@@ -154,11 +148,9 @@
 			files = (
 				80D257302732D50200A076D8 /* MoviesTableViewController.swift in Sources */,
 				80D2572D2732D47D00A076D8 /* MoviesTableViewCell.swift in Sources */,
-				80D2573B2735612600A076D8 /* Photo CollectionViewCell.swift in Sources */,
 				80D257122732849100A076D8 /* AppDelegate.swift in Sources */,
 				80D2572A2732D1DD00A076D8 /* DatailMovieViewController.swift in Sources */,
 				80D25727273286B400A076D8 /* DataResponse.swift in Sources */,
-				80D257382735610B00A076D8 /* Photo CollectionViewController.swift in Sources */,
 				80D257142732849100A076D8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -60,18 +60,10 @@ class DatailMovieViewController: UIViewController {
             }
         }
         
-        
-        //        if let key = self.key,
-        //           let url = URL(string: "http://youtube.com/watch?v=\(key)"){
-        //            let safariVC = SFSafariViewController(url:url)
-        //            present(safariVC , animated: true , completion: nil)
-        //        }
-        
     }
     
     
     //找出type為Trailer的key
-    
     func getVideoKey(completionHandler: @escaping (String?) -> Void) {
         let urlStr = "https://api.themoviedb.org/3/movie/\(movie.id)/videos?api_key=ddfdbf1437484d15d2e88be7da8f38f4"
         var videoArray = [Video]()
@@ -95,14 +87,6 @@ class DatailMovieViewController: UIViewController {
                     }else{
                         completionHandler(nil)
                     }
-                        
-//                       使用filter過濾type為trailer，結果會是array
-//                       let trailerArray = videoArray.filter { (viedo) -> Bool in
-//                            (viedo.type?.elementsEqual("Trailer") ?? false)
-//                        }
-//                        print("key:",trailerArray[0].key)
-                        
-                    
                 }catch{
                     
                 }
